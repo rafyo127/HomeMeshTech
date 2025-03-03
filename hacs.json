@@ -1,0 +1,8 @@
+{
+  "name": "mDNS Repeater",
+  "content_in_root": false,
+  "domains": ["sensor"],
+  "country": "US",
+  "homeassistant": "2021.12.0",
+  "render_readme": true
+}
