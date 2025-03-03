@@ -1,10 +1,15 @@
-FROM python:3.9-slim
+FROM alpine:3.13
 
-RUN pip install scapy
+RUN apk add --no-cache build-base
 
-COPY mdns_repeater.py /usr/local/bin/mdns_repeater.py
-COPY run.sh /usr/local/bin/run.sh
+COPY mdns-repeater.c /usr/src/mdns-repeater.c
+COPY Makefile /usr/src/Makefile
+COPY run.sh /usr/src/run.sh
 
-RUN chmod +x /usr/local/bin/mdns_repeater.py /usr/local/bin/run.sh
+WORKDIR /usr/src
 
-CMD [ "/usr/local/bin/run.sh" ]
+RUN make
+
+RUN chmod +x /usr/src/run.sh
+
+CMD [ "/usr/src/run.sh" ]

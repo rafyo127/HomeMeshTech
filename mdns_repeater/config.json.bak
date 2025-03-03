@@ -7,8 +7,8 @@
   "startup": "application",
   "boot": "auto",
   "options": {
-    "iface_in": "enu1u1",
-    "iface_out": "tailscale0"
+    "iface_in": "eth0",
+    "iface_out": "wlan0"
   },
   "schema": {
     "iface_in": "str",

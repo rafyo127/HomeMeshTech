@@ -44,7 +44,7 @@ The mDNS Repeater add-on for Home Assistant allows you to extend the range of mD
 
 ## How It Works
 
-The add-on uses a Python script that leverages the `scapy` library to capture and forward mDNS packets. The script listens for mDNS packets on the specified input interface and forwards them to the output interface, allowing devices on different subnets to discover each other.
+The add-on uses the mDNS Repeater program to capture and forward mDNS packets. The program listens for mDNS packets on the specified input interface and forwards them to the output interface, allowing devices on different subnets to discover each other.
 
 ## Troubleshooting
 
