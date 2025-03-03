@@ -1,5 +1,3 @@
-# HomeMeshTech
-
 # mDNS Repeater Add-on for Home Assistant
 
 ## Overview
