@@ -1,0 +1,10 @@
+{
+  "domain": "mdns_repeater",
+  "name": "mDNS Repeater",
+  "version": "1.0.0",
+  "documentation": "https://github.com/rafyo127/homeassistant-mdns-repeater",
+  "dependencies": [],
+  "codeowners": ["@rafyo127"],
+  "requirements": [],
+  "iot_class": "local_polling"
+}
