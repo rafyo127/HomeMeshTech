@@ -3,6 +3,7 @@
   "name": "mDNS Repeater",
   "version": "1.0.0",
   "documentation": "https://github.com/rafyo127/homeassistant-mdns-repeater",
+  "issue_tracker": "https://github.com/rafyo127/homeassistant-mdns-repeater/issues",
   "dependencies": [],
   "codeowners": ["@rafyo127"],
   "requirements": [],
