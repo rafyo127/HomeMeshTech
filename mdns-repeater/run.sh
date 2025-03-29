@@ -1,4 +1,11 @@
 #!/bin/sh
+
+echo "[DEBUG] Installed packages:"
+apk info
+
+echo "[DEBUG] Checking for jq:"
+which jq
+
 SOURCE_INTERFACE=$(jq -r '.source_interface' /data/options.json)
 DESTINATION_INTERFACE=$(jq -r '.destination_interface' /data/options.json)
 
