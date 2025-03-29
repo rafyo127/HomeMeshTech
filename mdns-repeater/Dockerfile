@@ -1,6 +1,6 @@
 FROM alpine:3.18
 
-RUN apk add --no-cache iproute2
+RUN apk add --no-cache iproute2 jq
 
 COPY mdns-repeater /usr/bin/mdns-repeater
 COPY run.sh /run.sh
