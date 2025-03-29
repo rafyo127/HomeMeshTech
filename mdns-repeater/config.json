@@ -1,0 +1,23 @@
+{
+  "name": "mDNS Repeater",
+  "version": "1.0.0",
+  "slug": "mdns_repeater",
+  "description": "Repeats mDNS traffic between two network interfaces.",
+  "arch": ["armv7"],
+  "startup": "services",
+  "boot": "auto",
+  "hassio_api": false,
+  "hassio_role": "default",
+  "host_network": true,
+  "options": {
+    "source_interface": "enu1u1",
+    "destination_interface": "tailscale0"
+  },
+  "schema": {
+    "source_interface": "str",
+    "destination_interface": "str"
+  },
+  "ports": {},
+  "map": [],
+  "tmpfs": true
+}
