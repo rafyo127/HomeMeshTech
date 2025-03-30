@@ -1,2 +1,3 @@
 #!/bin/sh
-echo "[REAL MOCK] mDNS repeater running on $1 -> $2"
+echo "[SIMULATED] Real mdns-repeater running on $1 -> $2"
+while true; do sleep 3600; done
