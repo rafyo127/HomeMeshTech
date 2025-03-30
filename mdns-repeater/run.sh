@@ -13,4 +13,8 @@ echo "[INFO] Starting mDNS repeater..."
 echo "[INFO] Source Interface: $SOURCE_INTERFACE"
 echo "[INFO] Destination Interface: $DESTINATION_INTERFACE"
 
-exec mdns-repeater "$SOURCE_INTERFACE" "$DESTINATION_INTERFACE"
+# Start the mDNS repeater
+mdns-repeater "$SOURCE_INTERFACE" "$DESTINATION_INTERFACE" &
+
+# Wait to keep container alive (in case the binary exits too quickly)
+wait $!
