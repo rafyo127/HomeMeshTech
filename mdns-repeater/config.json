@@ -1,6 +1,6 @@
 {
-  "name": "mDNS Repeater",
-  "version": "1.0.0",
+  "name": "HomMesh mDNS Repeater",
+  "version": "1.2.0",
   "slug": "mdns_repeater",
   "description": "Repeats mDNS traffic between two network interfaces.",
   "arch": ["armv7"],
