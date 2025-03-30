@@ -1,8 +1,8 @@
 {
-  "name": "mDNS Repeater",
-  "version": "1.0.0",
+  "name": "HomeMesh mDNS Repeater",
+  "version": "1.1.0",
   "slug": "mdns_repeater",
-  "description": "Repeats mDNS traffic between two network interfaces.",
+  "description": "Repeats mDNS traffic between two network interfaces. This is version 1.1.0 last edited on March 29, 2025",
   "arch": ["armv7"],
   "startup": "services",
   "boot": "auto",
